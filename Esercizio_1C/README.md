@@ -1,3 +1,6 @@
 # Esercizio 1C - Commento
-commento del testo allegato
+Il testo dato è un brano scritto dallo scrittore tedesco Heinrich Von Kleist intorno ai 1990’s, il quale vede come protagonisti lui e un ballerino senza identità ma che apparentemente è molto conosciuto nel mondo della danza. Dopo uno spettacolo di marionette tenuto in una piazza da questa persona, i due iniziano a dialogare sul seguente evento e sul tema della  “grazia”.
 
+Secondo il ballerino all’interno della marionetta esisteva una grazia innata, la quale al contrario non era presente in un ballerino umano per il semplice fatto dell’esistenza della forza di gravità. Infatti secondo la sua esperienza il danzatore non sarà mai in grado di effettuare un movimento in modo impeccabile mentre la marionetta invece è in grado di di muoversi al momento e con il movimento imposto.
+
+Infine dopo un constante discorso, esso si concluderà con un leggero cambiamento d’opinione da parte di Henrich Von Kleist riguardo la presenza di questa caratteristica all’interno delle marionette.
