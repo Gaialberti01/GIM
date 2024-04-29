@@ -6,7 +6,7 @@ Corso di grafica in movimento , SUPSI; 2024
 
 (aperto - chiuso 3): 
 
-(acceso - spento 2): https://gaialberti01.github.io/GIM/acceso_spento_2.html
+(acceso - spento 2): https://gaialberti01.github.io/GIM/Esercizio_1A/acceso_spento_2.html
 
 (acceso - spento 3): http://127.0.0.1:5500/acceso_spento_3.html
 
