@@ -17,3 +17,6 @@ Corso di grafica in movimento , SUPSI; 2024
 (rotazione 2):
 
 (rotazione 2):
+
+#### Esercizio 1B
+(aperto - chiuso 2):
