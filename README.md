@@ -1,7 +1,7 @@
 # GIM
 Corso di grafica in movimento , SUPSI; 2024
 
-###Esercizio 1A
+### Esercizio 1A
 (aperto - chiuso 2):
 (aperto - chiuso 3):
 (acceso - spento 2):
