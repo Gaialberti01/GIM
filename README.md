@@ -23,5 +23,5 @@ Corso di grafica in movimento , SUPSI; 2024
 (interzione immagini): https://gaialberti01.github.io/GIM/Esercizio_1B/index.html
 
 #### Esercizio 1C
-https://gaialberti01.github.io/GIM/Esercizio_1C.html
+https://gaialberti01.github.io/GIM/Esercizio_1C/README.html
 
