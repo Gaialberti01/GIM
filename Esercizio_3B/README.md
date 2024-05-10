@@ -5,8 +5,8 @@ Pioggia, neve e ping-pong
 Crea una variante del famoso gioco del “Pong”: può essere interattiva o semplicemente generare immagini o pattern per una t-shirt.  
 
 ## Esercizi aggiuntivi 
-Crea un programma “pioggia”.  
-Crea un programma “neve”.  
+Crea un programma “Pioggia”.  
+Crea un programma “Neve”.  
 
 ## Restrizioni
 - Nessuna 
@@ -18,13 +18,13 @@ Pubblicare l’esercizio sulla piattaforma GitHub e pubblicare il link a github.
 ## Struttura cartelle
 ```
 GIM/esercizio_3B/neve
-	.html 
+	index.html 
 	...
 GIM/esercizio_3B/pioggia
-	.html 
+	index.html 
 	...
 GIM/esercizio_3B/pong
-	.html 
+	index.html 
 	...
 
 ``` 
