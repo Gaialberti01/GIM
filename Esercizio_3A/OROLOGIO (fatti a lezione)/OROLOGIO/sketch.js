@@ -36,7 +36,7 @@ function draw() {
 
 
 
-	fill (0)
+	fill (255,0,0)
 	noStroke
 
 	textAlign(CENTER, CENTER)
