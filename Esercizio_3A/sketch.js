@@ -15,50 +15,49 @@ translate(width/2, height/2 - 40)
 	noStroke()
 	fill(255) 
 
+
+	let hr = hour()
+	let mn = minute()
+	let sc = second()
+  
 	
-	// Ottieni l'ora attuale
-	let hr = hour();
-	let mn = minute();
-	let sc = second();
+	strokeWeight(8)
+	noFill()
+	stroke(255)
+	let secondAngle = map(sc, 0, 60, -90, 270)
+	arc(0, 0, 300, 300, -90, secondAngle)
   
-	// Disegna il cerchio dei secondi
-	strokeWeight(8);
-	noFill();
-	stroke(255);
-	let secondAngle = map(sc, 0, 60, -90, 270);
-	arc(0, 0, 300, 300, -90, secondAngle);
-  
-	// Disegna il cerchio dei minuti
+	
 	stroke(150, 100, 255);
-  let minuteAngle = map(mn, 0, 60, 90, 270);
-  arc(0, 0, 280, 280, -90, minuteAngle);
+  let minuteAngle = map(mn, 0, 60, 90, 270)
+  arc(0, 0, 280, 280, -90, minuteAngle)
   
-	// Disegna il cerchio delle ore
-	stroke(150, 255, 100);
-  let hourAngle = map(hr % 12, 0, 12, 90, 360);
+	
+	stroke(150, 255, 100)
+  let hourAngle = map(hr % 12, 0, 12, 90, 360)
   arc(0, 0, 260, 260, -90, hourAngle)
   
-	// Disegna le lancette
-	push();
-	rotate(secondAngle);
-	stroke(255);
-	line(0, 0, 100, 0);
+	
+	push()
+	rotate(secondAngle)
+	stroke(255)
+	line(0, 0, 100, 0)
 	pop();
   
-	push();
-	rotate(minuteAngle);
-	stroke(150, 100, 255);
-	line(0, 0, 75, 0);
+	push()
+	rotate(minuteAngle)
+	stroke(150, 100, 255)
+	line(0, 0, 75, 0)
 	pop();
   
-	push();
-	rotate(hourAngle);
-	stroke(150, 255, 100);
-	line(0, 0, 50, 0);
-	pop();
+	push()
+	rotate(hourAngle)
+	stroke(150, 255, 100)
+	line(0, 0, 50, 0)
+	pop()
   
-	// Disegna il punto centrale
-	stroke(255);
-	point(0, 0);
+	
+	stroke(255)
+	point(0, 0)
 }
 
