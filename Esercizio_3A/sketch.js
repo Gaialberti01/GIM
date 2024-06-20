@@ -24,13 +24,13 @@ translate(width/2, height/2 - 40)
 	strokeWeight(8)
 	noFill()
 	stroke(255)
-	let secondAngle = map(sc, 0, 60, 0, 360)
-	arc(0, 0, 300, 300, -90, secondAngle - 90)
+	let secondAngle = map(sc, 0, 60, -90, 270)
+	arc(0, 0, 300, 300, -90, secondAngle)
   
 	
 	stroke(150, 100, 255);
-  let minuteAngle = map(mn, 0, 60, 0, 360)
-  arc(0, 0, 280, 280, -90, minuteAngle - 90)
+  let minuteAngle = map(mn, 0, 60, 90, 270)
+  arc(0, 0, 280, 280, -90, minuteAngle)
   
 	
 	stroke(150, 255, 100)
@@ -57,7 +57,7 @@ translate(width/2, height/2 - 40)
 	pop()
   
 	
-	stroke(255)
-	point(0, 0)
+	stroke(255);
+	point(0, 0);
 }
 
