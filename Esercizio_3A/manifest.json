@@ -1,7 +1,7 @@
 {
-	"name": "titolo",
-	"short_name": "titolo",
-	"description": "titolo",
+	"name": "Titolo",
+	"short_name": "Titolo",
+	"description": "Titolo",
 	"display_override": ["fullscreen"],
 	"display": "standalone",
 	"icons": [
