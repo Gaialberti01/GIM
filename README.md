@@ -28,7 +28,7 @@ https://gaialberti01.github.io/GIM/Esercizio_1C
 https://gaialberti01.github.io/GIM/Esercizio_2/index.html
 
 #### Esercizio 3A
-https://gaialberti01.github.io/GIM/Esercizio_3A/OROLOGIO/index.html
+https://gaialberti01.github.io/GIM/Esercizio_3A/index.html
 
 
 
