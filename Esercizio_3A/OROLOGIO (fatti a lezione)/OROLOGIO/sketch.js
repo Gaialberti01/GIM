@@ -31,8 +31,9 @@ function draw() {
 	noStroke
 
 	rect(0, height/3 * 0 , second() / 60 * width, height/3)
-	rect(0, height/3 * 1 , minute() / 60 * width, height/3)
+	circle(0, height/3 * 1 , minute() / 60 * width, height/3)
 	rect(0, height/3 * 2 , hour() / 24 * width, height/3)
+
 
 
 

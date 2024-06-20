@@ -27,63 +27,105 @@ function draw() {
 
 	let txt = h + ":" + m + ":" + s
 
+	//------------------------------//
 
 	fill (0)
 	noStroke
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-	circle (20,20,8) - circle (35,20,8) - circle (50,20,8) - circle (65,20,8) - circle (80,20,8) - circle (95,20,8)
-	circle (20,35,8) - circle (35,35,8) - circle (50,35,8) - circle (65,35,8) - circle (80,35,8) - circle (95,35,8)
-	circle (20,50,8) - circle (35,50,8) - circle (50,50,8) - circle (65,50,8) - circle (80,50,8) - circle (95,50,8)
-	circle (20,65,8) - circle (35,65,8) - circle (50,65,8) - circle (65,65,8) - circle (80,65,8) - circle (95,65,8)
-	circle (20,80,8) - circle (35,80,8) - circle (50,80,8) - circle (65,80,8) - circle (80,80,8) - circle (95,80,8)
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		margin: 0;
+		background:#ffffff;
+		font-family: 'Roboto', sans-serif;
+	}
 
-	circle (125,20,8) - circle (140,20,8) - circle (155,20,8) - circle (170,20,8) - circle (185,20,8) - circle (200,20,8)
-	circle (125,35,8) - circle (140,35,8) - circle (155,35,8) - circle (170,35,8) - circle (185,35,8) - circle (200,35,8)
-	circle (125,50,8) - circle (140,50,8) - circle (155,50,8) - circle (170,50,8) - circle (185,50,8) - circle (200,50,8)
-	circle (125,65,8) - circle (140,65,8) - circle (155,65,8) - circle (170,65,8) - circle (185,65,8) - circle (200,65,8)
-	circle (125,80,8) - circle (140,80,8) - circle (155,80,8) - circle (170,80,8) - circle (185,80,8) - circle (200,80,8)
+	.clock {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(131, 131, 131, 0);
+		border-radius: 15px;
+		padding: 10px 40px;
+		box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		position: relative;
+	}
 
-	circle (230,20,8) - circle (245,20,8) - circle (260,20,8) - circle (275,20,8) - circle (290,20,8) - circle (305,20,8)
-	circle (230,35,8) - circle (245,35,8) - circle (260,35,8) - circle (275,35,8) - circle (290,35,8) - circle (305,35,8)
-	circle (230,50,8) - circle (245,50,8) - circle (260,50,8) - circle (275,50,8) - circle (290,50,8) - circle (305,50,8)
-	circle (230,65,8) - circle (245,65,8) - circle (260,65,8) - circle (275,65,8) - circle (290,65,8) - circle (305,65,8)
-	circle (230,80,8) - circle (245,80,8) - circle (260,80,8) - circle (275,80,8) - circle (290,80,8) - circle (305,80,8)
+	.clock div {
+		margin: 0 px;
+		font-size: 4rem;
+		color: #fff;
+		text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+		position: relative;
+		animation: colorChange 10s infinite;
+	}
 
-	circle (335,20,8) - circle (350,20,8) - circle (365,20,8) - circle (380,20,8) - circle (395,20,8) - circle (410,20,8)
-	circle (335,35,8) - circle (350,35,8) - circle (365,35,8) - circle (380,35,8) - circle (395,35,8) - circle (410,35,8)
-	circle (335,50,8) - circle (350,50,8) - circle (365,50,8) - circle (380,50,8) - circle (395,50,8) - circle (410,50,8)
-	circle (335,65,8) - circle (350,65,8) - circle (365,65,8) - circle (380,65,8) - circle (395,65,8) - circle (410,65,8)
-	circle (335,80,8) - circle (350,80,8) - circle (365,80,8) - circle (380,80,8) - circle (395,80,8) - circle (410,80,8)
+	.clock span {
+		font-size: 3rem;
+		color: #000000;
+		text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.276);
+	}
 
-	circle (440,20,8) - circle (455,20,8) - circle (470,20,8) - circle (485,20,8) - circle (500,20,8) - circle (515,20,8)
-	circle (440,35,8) - circle (455,35,8) - circle (470,35,8) - circle (485,35,8) - circle (500,35,8) - circle (515,35,8)
-	circle (440,50,8) - circle (455,50,8) - circle (470,50,8) - circle (485,50,8) - circle (500,50,8) - circle (515,50,8)
-	circle (440,65,8) - circle (455,65,8) - circle (470,65,8) - circle (485,65,8) - circle (500,65,8) - circle (515,65,8)
-	circle (440,80,8) - circle (455,80,8) - circle (470,80,8) - circle (485,80,8) - circle (500,80,8) - circle (515,80,8)
+	@keyframes colorChange {
+		0%, 100% { color: #000000; }
+	   
+	}
 
-	circle (545,20,8) - circle (560,20,8) - circle (575,20,8) - circle (590,20,8) - circle (605,20,8) - circle (620,20,8)
-	circle (545,35,8) - circle (560,35,8) - circle (575,35,8) - circle (590,35,8) - circle (605,35,8) - circle (620,35,8)
-	circle (545,50,8) - circle (560,50,8) - circle (575,50,8) - circle (590,50,8) - circle (605,50,8) - circle (620,50,8)
-	circle (545,65,8) - circle (560,65,8) - circle (575,65,8) - circle (590,65,8) - circle (605,65,8) - circle (620,65,8)
-	circle (545,80,8) - circle (560,80,8) - circle (575,80,8) - circle (590,80,8) - circle (605,80,8) - circle (620,80,8)
+	@keyframes glow {
+		0%, 100% { box-shadow: 0 0 200px rgba(255, 255, 255, 0.6); }
+		10% { box-shadow: 0 0 100px rgb(255, 0, 0); }
+		20% { box-shadow: 0 0 200px rgb(255, 81, 0); }
+		30% { box-shadow: 0 0 100px rgb(255, 225, 0); }
+		40% { box-shadow: 0 0 200px rgb(0, 255, 17); }
+		50% { box-shadow: 0 0 100px rgb(0, 251, 255); }
+		60% { box-shadow: 0 0 200px rgb(0, 174, 255); }
+		70% { box-shadow: 0 0 100px rgb(0, 76, 255); }
+		80% { box-shadow: 0 0 200px rgb(136, 0, 255); }
+		90% { box-shadow: 0 0 100px rgb(255, 0, 247); }
+		
+	}
 
+	
 
+	.clock::before {
+		content: '';
+		position: absolute;
+		top: -5px;
+		left: -5px;
+		right: -5px;
+		bottom: -5px;
+		border-radius: 20px;
+		border: 1px solid rgb(0, 0, 0);
+		animation: glow 4s infinite;
+	}
+</style>
+</head>
+<body>
+<div class="clock">
+	<div id="hour">00</div>
+	<span>:</span>
+	<div id="minute">00</div>
+	<span>:</span>
+	<div id="seconds">00</div>
+</div>
+<script>
+	function updateClock() {
+		const now = new Date();
+		const hours = String(now.getHours()).padStart(2, '0');
+		const minutes = String(now.getMinutes()).padStart(2, '0');
+		const seconds = String(now.getSeconds()).padStart(2, '0');
 
+		document.getElementById('hour').textContent = hours;
+		document.getElementById('minute').textContent = minutes;
+		document.getElementById('seconds').textContent = seconds;
+	}
 
-	//rect(0, height/3 * 0 , second() / 60 * width, height/3)//
-	//rect(0, height/3 * 1 , minute() / 60 * width, height/3)//
-	//rect(0, height/3 * 2 , hour() / 24 * width, height/3)//
-
-
-
-	fill (0)
-	noStroke
-
-	textAlign(CENTER, CENTER)
-	textSize(30)
-
-
-	text (txt, width/2, height/2)
-
-
-}
+	setInterval(updateClock, 1000);
+	updateClock(); // initial call to set the clock immediately
+</script>
+</body>
+</html>
